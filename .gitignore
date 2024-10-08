@@ -1,3 +1,11 @@
+# dldt_data
+dldt_data/page_images
+dldt_data/printer_jsons
+dldt_data/*.json
+dldt_data/*.csv
+dldt_data/secret.py
+dldt_data/__pycache__
+
 # Nuxt dev/build outputs
 .output
 .data
