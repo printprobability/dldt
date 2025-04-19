@@ -25,12 +25,41 @@ python3 query_db.py --remove_chars_from_json_path --unique_id_list_files dldt_da
 
 ## How to update and relaunch the website
 
+1. Stop any running container.
+
 ```bash
 sudo docker compose stop client
+```
+
+2. (Optional) Remove node_modules and do a fresh install.
+
+```bash
 sudo rm -r -f .nuxt .output/ node_modules/
-npm install && npm run migrate
+npm install
+```
+
+3. Migrate data
+
+```bash
+npm run migrate
+```
+
+4. Start container
+
+```bash
 sudo docker compose start client
 ```
+
+## How to modify data
+
+There are 2 main data file
+* `dldt_data/cdt_printers.csv`: This file holds data of `Printer`
+* `dldt_data/books.json`: This file holds data of `Book`
+* `dldt_data/extracted_character_data.json`: This file holds data of `Character`
+
+For example, if you need to add more `Books`, go to `dldt_data/books.json` and add more object in it. Same for modification and removal. Then, relaunch the website.
+
+For more information about migration process, view `scripts/init-db.ts`.
 
 
 ## How to dump the character database filepaths to a text file
