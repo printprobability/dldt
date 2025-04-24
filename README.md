@@ -68,3 +68,16 @@ For more information about migration process, view `scripts/init-db.ts`.
 python3 query_db.py --dump_cached_char_paths dldt_data/cached_char_paths.txt --remove_chars_from_json_path --unique_id_list_files dldt_data/unique_id_flagged_for_deletion_202*
 tar -cf dldt_data/cached_char_paths.tar -T dldt_data/cached_char_paths.txt
 ```
+## About file structure
+
+Some notable files
+* `pages/index.vue`: Main page AKA list (or grid) of characters.
+* `pages/printers.vue`: Printer page. This is page where showing all printers as list with multiple columns.
+* `pages/about.vue`: About page.
+* `pages/characters/[id].vue`: Character detail page.
+* `server/api/characters/[id].ts`: API endpoint for fetching character detail and return to client.
+* `server/api/character_class.ts`: API endpoint for fetching all character classes.
+* `server/api/characters.ts`: API endpoint for fetching all characters (including filters).
+* `server/api/printers.ts`: API endpoint for fetching printers.
+* `layouts/*.ts`: Layout files.
+* `plugins/*.ts`: These are install plugin scripts (like Axios, Vuetify, ...)
