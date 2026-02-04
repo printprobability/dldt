@@ -80,7 +80,7 @@ const title = ref(
 );
 // Intro
 const intro = ref(
-  "The CDT is a visual catalog of distinctive and damaged printing type originating in books published in England from 1660 to 1700. These type impressions — 15,000 individual letters or “sorts” —  form a new source of typographic evidence for more than 240 printers working in London during the English Restoration. Users can search by character class (letterform), printer, and date."
+  "The CDT is a visual catalog of distinctive and damaged printing type originating in books published in England from 1660 to 1700. These type impressions — 20,000 individual letters or “sorts” —  form a new source of typographic evidence for more than 240 printers working in London during the English Restoration. Users can search by character class (letterform), printer, and date."
 );
 
 // Head
