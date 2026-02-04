@@ -1,180 +1,241 @@
-# DLDT Project README
+# DLDT Project
 
-This README provides instructions for managing the DLDT website, including deleting characters from the database, updating and relaunching the site, modifying data, dumping character database filepaths, and managing site files (HTML, CSS, etc.) within the Vue.js framework.
+This README provides instructions for managing the DLDT website,
+including deleting characters from the database, updating and
+relaunching the site, modifying data, dumping character database
+filepaths, and managing site files (HTML, CSS, etc.) within the Vue.js
+framework.
+
+------------------------------------------------------------------------
+
+## ✅ Data Update Checklist (Quick Reference)
+
+Use this checklist whenever you update printers, books, or characters.
+
+### 1. Update source data
+
+-   [ ] Update `dldt_data/cdt_printers.csv` (canonical printers list)
+-   [ ] Update `dldt_data/books.json` (books metadata)
+-   [ ] Update `dldt_data/extracted_character_data.json` (characters)
+-   [ ] If merging sources, **dedupe and normalize first** (especially
+    `group_id` / `group_ID`)
+
+### 2. Check for known bad data
+
+-   [ ] Are any books known to have bad scans / corrupt extractions?
+    -   If yes: add their `book_id` to the **book exclusion list** in
+        `scripts/init-db.ts`
+-   [ ] Are any printers deprecated or invalid?
+    -   If yes: confirm they are in the `deletePrinters` list in
+        `scripts/init-db.ts`
+
+### 3. Sanity-check coverage
+
+-   [ ] Compare:
+    -   Number of printers in CSV vs unique `group_id`s in characters
+    -   Character count before vs after update
+-   [ ] If you see a big drop:
+    -   Check for missing `group_id`s in `cdt_printers.csv`
+    -   Check for accidental over-filtering in `scripts/init-db.ts`
+
+### 4. Rebuild the database
+
+``` bash
+npm run migrate
+```
+
+Watch the output for warnings like: - Missing `group_id` - Missing
+printer entries - Skipped or filtered records
+
+### 5. Restart the site
+
+``` bash
+sudo docker compose restart client
+```
+
+(If IIIF images are affected:)
+
+``` bash
+sudo docker compose restart iiif
+```
+
+### 6. Verify the site
+
+Local:
+
+``` bash
+curl -I http://localhost:3000
+```
+
+Production:
+
+``` bash
+curl -I https://cdt.library.cmu.edu/
+```
+
+Spot-check: - Printers list loads - Character grid loads - Character
+detail pages load - IIIF images render
+
+### 7. If something looks wrong
+
+``` bash
+sudo docker compose logs client
+sudo docker compose logs iiif
+```
+
+Re-check: - `cdt_printers.csv` completeness - `books.json` IDs -
+`extracted_character_data.json` integrity - Filtering rules in
+`scripts/init-db.ts`
+
+------------------------------------------------------------------------
 
 ## How to Delete Characters from Database
 
-1. Prepare a list of character IDs in a text file, e.g.:
+1.  Prepare a list of character IDs in a text file, e.g.:
 
-   **unique_id_flagged_for_deletion_2024-12-02.txt**:
-   ```
-   everingham_A1679.002
-   everingham_A1679.004
-   maxwell_F1667.001
-   maxwell_F1667.003
-   ```
+**unique_id_flagged_for_deletion_2024-12-02.txt**
 
-2. Run the `query_db.py` script with a wildcard for `--unique_id_list_file` to match ALL IDs to be deleted (including past files):
+    everingham_A1679.002
+    everingham_A1679.004
+    maxwell_F1667.001
+    maxwell_F1667.003
 
-   ```bash
-   python3 query_db.py --remove_chars_from_json_path --unique_id_list_files dldt_data/unique_id_flagged_for_deletion_202*
-   ```
+2.  Run the `query_db.py` script with a wildcard for
+    `--unique_id_list_file` to match ALL IDs to be deleted (including
+    past files):
 
-3. Update and relaunch the site (see instructions below).
+``` bash
+python3 query_db.py --remove_chars_from_json_path --unique_id_list_files dldt_data/unique_id_flagged_for_deletion_202*
+```
+
+3.  Update and relaunch the site (see below).
+
+------------------------------------------------------------------------
 
 ## How to Update and Relaunch the Website
 
-1. Stop any running container:
+1.  Stop any running container:
 
-   ```bash
-   sudo docker compose stop client
-   ```
+``` bash
+sudo docker compose stop client
+```
 
-2. (Optional) Remove `node_modules` and perform a fresh install:
+2.  (Optional) Remove build artifacts and perform a fresh install:
 
-   ```bash
-   sudo rm -r -f .nuxt .output/ node_modules/
-   npm install
-   ```
+``` bash
+sudo rm -r -f .nuxt .output/ node_modules/
+npm install
+```
 
-3. Migrate data:
+3.  Migrate data:
 
-   ```bash
-   npm run migrate
-   ```
+``` bash
+npm run migrate
+```
 
-4. Start the container:
+4.  Start the container:
 
-   ```bash
-   sudo docker compose start client
-   ```
+``` bash
+sudo docker compose start client
+```
+
+------------------------------------------------------------------------
 
 ## How to Modify Data
 
-The main data files are:
-- `dldt_data/cdt_printers.csv`: Contains `Printer` data.
-- `dldt_data/books.json`: Contains `Book` data.
-- `dldt_data/extracted_character_data.json`: Contains `Character` data.
+Main data files:
 
-To add, modify, or remove data (e.g., adding a new `Book`), edit the relevant file (e.g., `dldt_data/books.json`) and update the JSON objects. Then, relaunch the website as described above.
+-   `dldt_data/cdt_printers.csv` --- Printer data
+-   `dldt_data/books.json` --- Book data
+-   `dldt_data/extracted_character_data.json` --- Character data
 
-For details on the migration process, see `scripts/init-db.ts`.
+To add, modify, or remove data, edit the relevant file and then run:
 
-## How to Dump the Character Database Filepaths to a Text File
+``` bash
+npm run migrate
+```
 
-Run the following command to dump filepaths and create a tar archive:
+For details on the migration process, see:
 
-```bash
+    scripts/init-db.ts
+
+------------------------------------------------------------------------
+
+## How to Dump the Character Database Filepaths
+
+``` bash
 python3 query_db.py --dump_cached_char_paths dldt_data/cached_char_paths.txt --remove_chars_from_json_path --unique_id_list_files dldt_data/unique_id_flagged_for_deletion_202*
 tar -cf dldt_data/cached_char_paths.tar -T dldt_data/cached_char_paths.txt
 ```
 
+------------------------------------------------------------------------
+
 ## About File Structure
 
 ### Notable Files
-- `pages/index.vue`: Main page displaying a list or grid of characters.
-- `pages/printers.vue`: Printers page, showing a list of printers with multiple columns.
-- `pages/about.vue`: About page.
-- `pages/characters/[id].vue`: Character detail page.
-- `server/api/characters/[id].ts`: API endpoint for fetching character details.
-- `server/api/character_class.ts`: API endpoint for fetching all character classes.
-- `server/api/characters.ts`: API endpoint for fetching all characters (with filters).
-- `server/api/printers.ts`: API endpoint for fetching printers.
-- `layouts/*.ts`: Layout files.
-- `plugins/*.ts`: Plugin scripts (e.g., Axios, Vuetify).
 
-### Site Files (HTML, CSS, JavaScript)
-The DLDT project uses **Vue.js**, a JavaScript framework, which organizes site files differently from traditional static HTML/CSS projects. Instead of separate `.html` and `.css` files, the site is built using **Vue components** (`.vue` files), which combine HTML, CSS, and JavaScript into a single file.
+-   `pages/index.vue` --- Main character list/grid
+-   `pages/printers.vue` --- Printers page
+-   `pages/about.vue` --- About page
+-   `pages/characters/[id].vue` --- Character detail page
+-   `server/api/characters/[id].ts` --- Character detail API
+-   `server/api/character_class.ts` --- Character classes API
+-   `server/api/characters.ts` --- Characters API (filters)
+-   `server/api/printers.ts` --- Printers API
+-   `layouts/*.ts` --- Layout files
+-   `plugins/*.ts` --- Plugin scripts (Axios, Vuetify, etc.)
 
-#### Where Are the Site Files?
-- **Location**: Most site files are in the `pages/`, `components/`, and `assets/` directories:
-  - **`pages/*.vue`**: These files define the main pages of the site (e.g., `index.vue` for the homepage, `printers.vue` for the printers page). Each `.vue` file contains:
-    - **HTML**: In a `<template>` section, defining the structure of the page.
-    - **CSS**: In a `<style>` section, often scoped to the component (e.g., `<style scoped>`).
-    - **JavaScript/TypeScript**: In a `<script>` section, handling logic and data.
-  - **`components/*.vue`**: Reusable UI components (e.g., buttons, cards) used across pages.
-  - **`assets/`**: Static files like images, fonts, or global CSS (e.g., `assets/css/style.css`).
-  - **`public/`**: Static files served directly (e.g., favicon, static images).
-  - **`layouts/*.ts`**: Layout templates that define the overall structure (e.g., headers, footers) for pages.
+------------------------------------------------------------------------
 
-#### How to Edit Site Files
-To modify the site's appearance or behavior, edit the `.vue` files in `pages/` or `components/`. Here's a basic guide to the **Vue > HTML > Vue process**:
+## Site Files (Vue.js)
 
-1. **Understand Vue Components**:
-   - A `.vue` file looks like this:
-     ```vue
-     <template>
-       <div class="container">
-         <h1>Welcome to DLDT</h1>
-       </div>
-     </template>
+The DLDT project uses **Vue.js**. Site pages are built from `.vue`
+components that combine:
 
-     <script>
-     export default {
-       name: 'HomePage',
-       data() {
-         return {
-           message: 'Hello, Vue!'
-         }
-       }
-     }
-     </script>
+-   `<template>` --- HTML-like markup
+-   `<script>` --- JavaScript/TypeScript logic
+-   `<style>` --- CSS (often scoped)
 
-     <style scoped>
-     .container {
-       background-color: #f0f0f0;
-     }
-     </style>
-     ```
-   - **`<template>`**: Contains HTML-like markup. Use Vue directives (e.g., `v-for`, `v-if`) for dynamic rendering.
-   - **`<script>`**: Contains JavaScript/TypeScript for logic, data, and methods.
-   - **`<style>`**: Contains CSS, scoped to the component if `scoped` is used.
+Key directories:
 
-2. **Editing Steps**:
-   - **Locate the File**: Identify the `.vue` file for the page or component you want to edit (e.g., `pages/index.vue` for the homepage).
-   - **Edit HTML**: Modify the `<template>` section to change the structure or content.
-   - **Edit CSS**: Update the `<style>` section to adjust styling. Use `scoped` to limit styles to the component, or remove `scoped` for global styles.
-   - **Edit JavaScript**: Update the `<script>` section to change logic, data, or interactions.
-   - **Global CSS**: For site-wide styles, edit files in `assets/css/` or add a global stylesheet in `assets/`.
-   - **Static Assets**: Add images or other files to `public/` or `assets/`.
+-   `pages/` --- Main pages
+-   `components/` --- Reusable components
+-   `assets/` --- CSS, fonts, images
+-   `public/` --- Static assets
+-   `layouts/` --- Layout templates
 
-3. **Best Practices**:
-   - **Use a Code Editor**: Use Visual Studio Code or WebStorm with Vue.js plugins for syntax highlighting and autocompletion.
-   - **Preview Changes**: Run the site locally with `npm run dev` to see changes in real-time.
-   - **Version Control**: Commit changes to Git (e.g., `git add .`, `git commit -m "Updated homepage"`, `git push`) to track modifications.
-   - **Avoid Direct HTML Files**: Vue.js compiles `.vue` files into HTML at build time, so you won't edit raw `.html` files.
-   - **Learn Vue Basics**: If unfamiliar with Vue, review the [Vue.js documentation](https://vuejs.org/guide/introduction.html) for concepts like components, directives, and reactivity.
+------------------------------------------------------------------------
 
-4. **Testing and Deployment**:
-   - After editing, test locally with `npm run dev`.
-   - Rebuild and relaunch the site using the "Update and Relaunch" steps above.
+## Editing Workflow
 
-#### Example: Modifying the Homepage
-To change the homepage's title and background color:
-1. Open `pages/index.vue`.
-2. Update the `<template>` section:
-   ```vue
-   <template>
-     <div class="home">
-       <h1>My New DLDT Title</h1>
-     </div>
-   </template>
-   ```
-3. Update the `<style>` section:
-   ```vue
-   <style scoped>
-   .home {
-     background-color: lightblue;
-   }
-   </style>
-   ```
-4. Save, run `npm run dev`, and check the changes locally.
-5. Follow the "Update and Relaunch" steps to deploy.
+1.  Edit `.vue` files in `pages/` or `components/`
+2.  Test locally:
 
-For more details on Vue.js, refer to the [official Vue.js guide](https://vuejs.org/guide/introduction.html).
+``` bash
+npm run dev
+```
+
+3.  Commit changes:
+
+``` bash
+git add .
+git commit -m "Describe change"
+git push
+```
+
+4.  Rebuild & relaunch:
+
+``` bash
+npm run migrate
+sudo docker compose restart client
+```
+
+------------------------------------------------------------------------
 
 ## Additional Notes
-- The project uses **Docker** for containerized deployment and **npm** for managing dependencies.
-- For API-related changes, review the `server/api/` directory.
-- For database migrations, refer to `scripts/init-db.ts`.
-- The GitHub repository is available at [https://github.com/printprobability/dldt](https://github.com/printprobability/dldt).
+
+-   Uses **Docker** for deployment
+-   Uses **npm** for dependencies
+-   API code lives in `server/api/`
+-   Migration logic lives in `scripts/init-db.ts`
+-   GitHub: https://github.com/printprobability/dldt
