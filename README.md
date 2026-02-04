@@ -8,9 +8,23 @@ framework.
 
 ------------------------------------------------------------------------
 
-## ✅ Data Update Checklist (Quick Reference)
+## Data Update Checklist (Quick Reference)
 
 Use this checklist whenever you update printers, books, or characters.
+
+## Configuration & Secrets (`secret.py`)
+
+Some data ingestion scripts require an API token. The current workflow supports using a temporary file: dldt_data/secret.py
+
+This file typically contains
+
+API_TOKEN = "your_token_here"
+
+### Usage Rules
+It is OK to create dldt_data/secret.py locally while running data collection scripts (e.g. get_data.py)
+Do not commit secret.py to git
+Delete secret.py after you are done running the scripts
+If secret.py ever contained a real token and was committed or copied elsewhere, revoke and rotate the token
 
 ### 1. Update source data
 
