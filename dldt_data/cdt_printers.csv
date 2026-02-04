@@ -1,80 +1,181 @@
 printer_string,printer_shortname,notes,books_on_workbench,workbench_set,export_cdt,group_ID
-"Cole, Peter",cole,,10,y,https://printprobdb.psc.edu/api/character_groupings/11271f73-15cf-4b20-87fc-f511cab4c01f/download/,11271f73-15cf-4b20-87fc-f511cab4c01f
-"Everingham, Robert",everingham,,10,y,https://printprobdb.psc.edu/api/character_groupings/e822db51-ff8d-40db-a201-8f4b70bb522a/download/,e822db51-ff8d-40db-a201-8f4b70bb522a
-"Gain, John",jgaines,,10,y,https://printprobdb.psc.edu/api/character_groupings/ee5b4169-da28-4f0f-b2f3-6dcf8fc54ed9/download/,ee5b4169-da28-4f0f-b2f3-6dcf8fc54ed9
-"Hayes, John",jhayes,hayes,10,y,https://printprobdb.psc.edu/api/character_groupings/f273df8b-950a-41aa-a401-1741e45e6477/download/,f273df8b-950a-41aa-a401-1741e45e6477
-"Jones, Edward",ejones,,10,y,https://printprobdb.psc.edu/api/character_groupings/74d9cdbd-28f4-46ba-8a00-c96fa6566893/download/,74d9cdbd-28f4-46ba-8a00-c96fa6566893
-"Larkin, George",glarkin,glarkini,10,y,https://printprobdb.psc.edu/api/character_groupings/dffabcec-dc8f-4c84-806a-f78dc6dcab77/download/,dffabcec-dc8f-4c84-806a-f78dc6dcab77
-"Ratcliffe, Thomas",tratcliffe,ratcliffe,10,y,https://printprobdb.psc.edu/api/character_groupings/7fbfafa4-7ec6-4162-b136-7dbcc3862908/download/,7fbfafa4-7ec6-4162-b136-7dbcc3862908
-"Richardson, John",jrichardson,,10,y,https://printprobdb.psc.edu/api/character_groupings/ad544734-db62-4d22-b119-d5271fb49937/download/,ad544734-db62-4d22-b119-d5271fb49937
-"Baldwin, Richard",rbaldwin,cni00039898,9,y,https://printprobdb.psc.edu/api/character_groupings/7ffacebb-01d5-46d3-9056-4c7f5468c1c1/download/,7ffacebb-01d5-46d3-9056-4c7f5468c1c1
-"Braddyll, Thomas",tbraddyll,,9,y,https://printprobdb.psc.edu/api/character_groupings/479974b9-c890-4b0c-93f1-67d19bf25c7b/download/,479974b9-c890-4b0c-93f1-67d19bf25c7b
-"Leake, John",jleake,,9,y,https://printprobdb.psc.edu/api/character_groupings/cd104c6d-dfa6-4e37-a7c4-e8d1e403d37c/download/,cd104c6d-dfa6-4e37-a7c4-e8d1e403d37c
-"Roberts, Robert",rroberts,,9,y,https://printprobdb.psc.edu/api/character_groupings/26dde26f-bddd-4b87-a52f-8da1e15b350b/download/,26dde26f-bddd-4b87-a52f-8da1e15b350b
-"Sowle, Andrew",asowle,,9,y,https://printprobdb.psc.edu/api/character_groupings/99a428fc-6f99-41d0-9b49-2b96f796832f/download/,99a428fc-6f99-41d0-9b49-2b96f796832f
-"Tyler, Evan",etyler,,9,y,https://printprobdb.psc.edu/api/character_groupings/1d49f402-f974-4fa3-b082-f43b3f993fa2/download/,1d49f402-f974-4fa3-b082-f43b3f993fa2
-"Macock, John",macock,,8,y,https://printprobdb.psc.edu/api/character_groupings/c075de77-e585-4bc1-8c52-0a7ee3290ce3/download/,c075de77-e585-4bc1-8c52-0a7ee3290ce3
-"Maxwell, Anne",amaxwell,,8,y,https://printprobdb.psc.edu/api/character_groupings/0bbfbb03-56e9-4e09-923d-513deb2889d4/download/,0bbfbb03-56e9-4e09-923d-513deb2889d4
-"Norton, Roger",norton,,8,y,https://printprobdb.psc.edu/api/character_groupings/aa9a837e-1b0f-4670-a78d-53a6a22f11c5/download/,aa9a837e-1b0f-4670-a78d-53a6a22f11c5
-"Roycroft, Samuel",sroycroft,,8,y,https://printprobdb.psc.edu/api/character_groupings/e46d9fa4-0a26-45f9-8165-7de1fb65cf75/download/,e46d9fa4-0a26-45f9-8165-7de1fb65cf75
-"Warren, Thomas",twarreniii,twarreniii,8,y,https://printprobdb.psc.edu/api/character_groupings/abd621b0-7287-4220-b3bc-230ba2320af5/download/,abd621b0-7287-4220-b3bc-230ba2320af5
-"Croom, George",gcroom,,7,y,https://printprobdb.psc.edu/api/character_groupings/a2e8bb75-30ab-48c3-a0d7-ee2cd46bcc4c/download/,a2e8bb75-30ab-48c3-a0d7-ee2cd46bcc4c
-"Darby, John",jdarby,darby,7,y,https://printprobdb.psc.edu/api/character_groupings/bb68eb6f-9e62-4326-bc2c-0cfbc9264c5f/download/,bb68eb6f-9e62-4326-bc2c-0cfbc9264c5f
-"Hodgkin, Thomas",thodgkin,"""Thomas Hodgkin"" on workbench",7,y,https://printprobdb.psc.edu/api/character_groupings/de560de3-94a1-4355-8e56-dfd945c6ecd5/download/,de560de3-94a1-4355-8e56-dfd945c6ecd5
-"Mabb, Thomas",tmabb,,7,y,https://printprobdb.psc.edu/api/character_groupings/0d22a678-7b81-498a-9c5f-0d22f1cd0f06/download/,0d22a678-7b81-498a-9c5f-0d22f1cd0f06
-"Simmons, Matthew",simmons,,7,y,https://printprobdb.psc.edu/api/character_groupings/e48f9e24-c5e7-477f-bf73-72a539f6545e/download/,e48f9e24-c5e7-477f-bf73-72a539f6545e
-"Collins, Freeman",fcollins,,6,y,https://printprobdb.psc.edu/api/character_groupings/f23fb2a7-8996-4402-b04d-a6bf437385cf/download/,f23fb2a7-8996-4402-b04d-a6bf437385cf
-"Daniel, Roger",rdaniel,,6,y,https://printprobdb.psc.edu/api/character_groupings/fd193b55-b438-4d0b-8507-18425e88a345/download/,fd193b55-b438-4d0b-8507-18425e88a345
-"Hills, Henry, Sr.",hhillssr,,6,y,https://printprobdb.psc.edu/api/character_groupings/09360a8c-bf6f-46a4-a3ff-4e72dfe8d847/download/,09360a8c-bf6f-46a4-a3ff-4e72dfe8d847
-"Holt, Ralph",rholt,,6,y,https://printprobdb.psc.edu/api/character_groupings/b07e00cf-809f-42c0-a172-19fefefc4fb4/download/,b07e00cf-809f-42c0-a172-19fefefc4fb4
-"James, Thomas",tjames,,6,y,https://printprobdb.psc.edu/api/character_groupings/5a053451-3dd1-44a9-bb09-2fb936597ffd/download/,5a053451-3dd1-44a9-bb09-2fb936597ffd
-"Matthews, John",jmatthews,,6,y,https://printprobdb.psc.edu/api/character_groupings/c29845ec-9ca9-41cb-8bbd-2f16911195e7/download/,c29845ec-9ca9-41cb-8bbd-2f16911195e7
-"Rawlins, William",rawlins,"""W Rawlins"" in Workbench",6,y,https://printprobdb.psc.edu/api/character_groupings/020782f3-920d-4fed-8046-09de643c7378/download/,020782f3-920d-4fed-8046-09de643c7378
-"Thompson, Mary",mthompson,,6,y,https://printprobdb.psc.edu/api/character_groupings/3290eb29-c3f1-4df5-9a9e-506c5e9ff525/download/,3290eb29-c3f1-4df5-9a9e-506c5e9ff525
-"White, Robert",white,rwhite,6,y,https://printprobdb.psc.edu/api/character_groupings/a4ca6211-be6c-4a3a-9d9f-4ac8bdbdc7b8/download/,a4ca6211-be6c-4a3a-9d9f-4ac8bdbdc7b8
-"Wilson, William",wilson,,6,y,https://printprobdb.psc.edu/api/character_groupings/659d607d-7d94-4bbc-a29b-5b65ce69375a/download/,659d607d-7d94-4bbc-a29b-5b65ce69375a
-"Eld, George",geld,,2,y,https://printprobdb.psc.edu/api/character_groupings/b81ecf69-4280-4186-9d3f-fa80260e11a1/download/,b81ecf69-4280-4186-9d3f-fa80260e11a1
-"Flesher, Miles, Jr.",mflesher,post-1678,2,y,,06b4a299-6d34-4072-ac9b-57ece93193a9
 "Ashburne, John",jashburne,,,y,https://printprobdb.psc.edu/api/character_groupings/e906d20e-93b6-466e-b57f-6a97137e6b41/download/,e906d20e-93b6-466e-b57f-6a97137e6b41
+"Astwood, James",jamesastwood,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/703c6e63-3438-4654-8cc5-43d946e367b5/download/,703c6e63-3438-4654-8cc5-43d946e367b5
+"Baldwin, Richard",rbaldwin,cni00039898,9.0,y,https://printprobdb.psc.edu/api/character_groupings/7ffacebb-01d5-46d3-9056-4c7f5468c1c1/download/,7ffacebb-01d5-46d3-9056-4c7f5468c1c1
+"Battersby, Robert",rbatters,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/4750d29e-7a18-4983-9eaa-f6ce769d5f85/download/,4750d29e-7a18-4983-9eaa-f6ce769d5f85
+"Bell, Jane",jbell,,5.0,y,https://printprobdb.psc.edu/api/character_groupings/9d59c7bd-55b8-4224-94f7-a349d7d79b15/download/,9d59c7bd-55b8-4224-94f7-a349d7d79b15
 "Bennet, Joseph",jbennet,,,y,https://printprobdb.psc.edu/api/character_groupings/867a84a0-69f4-4537-9169-6c9736371eb5/download/,867a84a0-69f4-4537-9169-6c9736371eb5
 "Bennet, Margaret",mbennet,,,y,https://printprobdb.psc.edu/api/character_groupings/64e1e72d-3325-47c5-b7e6-b2f09d83d4c9/download/,64e1e72d-3325-47c5-b7e6-b2f09d83d4c9
+"Best, John",jbest,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/f2cc193e-da6f-4660-a248-f0bec35de601/download/,f2cc193e-da6f-4660-a248-f0bec35de601
+"Bill, John",jbill,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/3d1d79ba-3327-4917-b8e5-de7922569a2e/download/,3d1d79ba-3327-4917-b8e5-de7922569a2e
 "Bonny, William",wbonny,,,y,https://printprobdb.psc.edu/api/character_groupings/276f726b-5f81-4a79-b5e1-e6073112896d/download/,276f726b-5f81-4a79-b5e1-e6073112896d
 "Bowyer, William",wbowyer,,,y,https://printprobdb.psc.edu/api/character_groupings/826010bd-3031-4412-ad1e-cbb9ffadc57b/download/,826010bd-3031-4412-ad1e-cbb9ffadc57b
+"Braddyll, Thomas",tbraddyll,,9.0,y,https://printprobdb.psc.edu/api/character_groupings/479974b9-c890-4b0c-93f1-67d19bf25c7b/download/,479974b9-c890-4b0c-93f1-67d19bf25c7b
+"Bradford, John",jbradford,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/c36e3ea0-8c78-4f7b-9af1-265acafed052/download/,c36e3ea0-8c78-4f7b-9af1-265acafed052
+"Bridge, Samuel",sbridge,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/40bcdebb-e934-49a5-8a66-1ae77011c9ef/download/,40bcdebb-e934-49a5-8a66-1ae77011c9ef
+"Bringhurst, John",jbringh,,5.0,y,https://printprobdb.psc.edu/api/character_groupings/ff212791-89e1-4254-9f0c-24ae8ef62df4/download/,ff212791-89e1-4254-9f0c-24ae8ef62df4
 "Browne, Charles",cbrowne,,,y,https://printprobdb.psc.edu/api/character_groupings/f1b41b9b-bee3-490a-98be-67b94cfd2284/download/,f1b41b9b-bee3-490a-98be-67b94cfd2284
+"Browne, Samuel",sbrowne,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/6aa04c23-cd89-43b8-a29d-d18e47b808c5/download/,6aa04c23-cd89-43b8-a29d-d18e47b808c5
+"Brudenell, John",jbrudenelljr,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/734336e0-5408-4693-baba-4ffe1b0e7e36/download/,734336e0-5408-4693-baba-4ffe1b0e7e36
 "Brugis, Henry",hbrugis,,,y,https://printprobdb.psc.edu/api/character_groupings/12f204ed-9891-404f-aef1-578e6d7137ec/download/,12f204ed-9891-404f-aef1-578e6d7137ec
+"Cadwell, John",jcadwell,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/f58f4639-ab63-427b-8dcb-887cdadc301e/download/,f58f4639-ab63-427b-8dcb-887cdadc301e
 "Clark, Andrew",aclark,,,y,https://printprobdb.psc.edu/api/character_groupings/d5727029-4eb4-4f8e-83d6-76935278fb58/download/,d5727029-4eb4-4f8e-83d6-76935278fb58
+"Clark, Benjamin",bclark,(All printed/sold by on ESTC),1.0,y,https://printprobdb.psc.edu/api/character_groupings/92732d66-b678-4465-9cd7-a158c2e62b00/download/,92732d66-b678-4465-9cd7-a158c2e62b00
+"Clark, Francis",fclark,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/68f36508-3e92-48ff-97ea-3dec4edc4c3c/download/,68f36508-3e92-48ff-97ea-3dec4edc4c3c
+"Clark, Henry",hclark,,5.0,y,https://printprobdb.psc.edu/api/character_groupings/c08c75b0-6016-48ff-9f72-910745f40504/download/,c08c75b0-6016-48ff-9f72-910745f40504
+"Clark, Mary",mclark,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/587af995-2918-4d0e-a991-ed7e0e00336f/download/,587af995-2918-4d0e-a991-ed7e0e00336f
 "Clowes, John",jclowes,,,y,https://printprobdb.psc.edu/api/character_groupings/d025cc02-b4ae-4863-9a6b-3736a30670b8/download/,d025cc02-b4ae-4863-9a6b-3736a30670b8
 "Coe, Andrew",acoe,,,y,https://printprobdb.psc.edu/api/character_groupings/46d25903-c35a-443d-b477-0865f50ef7c6/download/,46d25903-c35a-443d-b477-0865f50ef7c6
 "Coe, Jane",jcoe,,,y,https://printprobdb.psc.edu/api/character_groupings/34872820-6266-441b-b852-76fe55206b06/download/,34872820-6266-441b-b852-76fe55206b06
+"Cole, Peter",cole,,10.0,y,https://printprobdb.psc.edu/api/character_groupings/11271f73-15cf-4b20-87fc-f511cab4c01f/download/,11271f73-15cf-4b20-87fc-f511cab4c01f
+"Collins, Freeman",fcollins,,6.0,y,https://printprobdb.psc.edu/api/character_groupings/f23fb2a7-8996-4402-b04d-a6bf437385cf/download/,f23fb2a7-8996-4402-b04d-a6bf437385cf
+"Cotes, Ellen",ecotes,,4.0,y,https://printprobdb.psc.edu/api/character_groupings/a4c30e1b-89cb-48ae-9c90-6a4b261286a3/download/,a4c30e1b-89cb-48ae-9c90-6a4b261286a3
 "Cottrel, James",jcottrel,,,y,https://printprobdb.psc.edu/api/character_groupings/f1f7b303-5450-4b1c-90b2-0f49789a70b7/download/,f1f7b303-5450-4b1c-90b2-0f49789a70b7
 "Creake, Thomas",tcreake,,,y,https://printprobdb.psc.edu/api/character_groupings/61eedaca-4b4e-4076-9cdb-384f9dc6dc7c/download/,61eedaca-4b4e-4076-9cdb-384f9dc6dc7c
+"Croom, George",gcroom,,7.0,y,https://printprobdb.psc.edu/api/character_groupings/a2e8bb75-30ab-48c3-a0d7-ee2cd46bcc4c/download/,a2e8bb75-30ab-48c3-a0d7-ee2cd46bcc4c
+"Crouch, Edward",ecrouch,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/7ca15048-7310-4ac9-b8c4-28560a4ae0e6/download/,7ca15048-7310-4ac9-b8c4-28560a4ae0e6
 "Daniel, Mary",mdaniel,,,y,https://printprobdb.psc.edu/api/character_groupings/ecc151ad-9e00-489a-8ff8-1b7d9084714c/download/,ecc151ad-9e00-489a-8ff8-1b7d9084714c
+"Daniel, Roger",rdaniel,,6.0,y,https://printprobdb.psc.edu/api/character_groupings/fd193b55-b438-4d0b-8507-18425e88a345/download/,fd193b55-b438-4d0b-8507-18425e88a345
+"Darby, John",jdarbyii,1699-1707,3.0,y,https://printprobdb.psc.edu/api/character_groupings/aad1f38b-938c-431a-91e6-cd0e1cdbc338/download/,aad1f38b-938c-431a-91e6-cd0e1cdbc338
+"Darby, John",jdarby,darby,7.0,y,https://printprobdb.psc.edu/api/character_groupings/bb68eb6f-9e62-4326-bc2c-0cfbc9264c5f/download/,bb68eb6f-9e62-4326-bc2c-0cfbc9264c5f
+"Davis, Walter",davis,"All ""printed/sold by"" on ESTC",1.0,y,https://printprobdb.psc.edu/api/character_groupings/7f7416bb-f94a-4602-80bb-a1f59bceb040/download/,7f7416bb-f94a-4602-80bb-a1f59bceb040
+"Dawks, Ichabod",idawks,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/56da2be1-3813-41e7-9ad0-c87371764236/download/,56da2be1-3813-41e7-9ad0-c87371764236
+"Dawks, Thomas",tdawks,(All outside 241 date range on ESTC),2.0,y,https://printprobdb.psc.edu/api/character_groupings/ef3a3efb-5834-4b8a-9721-65bc29768b55/download/,ef3a3efb-5834-4b8a-9721-65bc29768b55
+"Dawson, Gartrude",gdawson,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/48473219-ec7d-4305-bc85-d407487f065f/download/,48473219-ec7d-4305-bc85-d407487f065f
 "Dover, James",jdover,,,y,https://printprobdb.psc.edu/api/character_groupings/4305886e-5016-4caf-8b3e-99e505aa389d/download/,4305886e-5016-4caf-8b3e-99e505aa389d
+"Dover, Joan",joandover,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/c8e8d123-dc52-48f5-96f9-5f656d4c648b/download/,c8e8d123-dc52-48f5-96f9-5f656d4c648b
+"Downing, William",wdowning,,4.0,y,https://printprobdb.psc.edu/api/character_groupings/868974f8-1cb5-429b-80dc-948d72cf1e70/download/,868974f8-1cb5-429b-80dc-948d72cf1e70
+"Dugard, William",wdugard,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/99c28cfb-e79a-45e7-b998-dc480275e067/download/,99c28cfb-e79a-45e7-b998-dc480275e067
+"Edwards, David",edwards,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/b94f487e-7068-44da-a78c-4a56f6e85bd8/download/,b94f487e-7068-44da-a78c-4a56f6e85bd8
+"Eld, George",geld,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/b81ecf69-4280-4186-9d3f-fa80260e11a1/download/,b81ecf69-4280-4186-9d3f-fa80260e11a1
+"Everingham, Robert",everingham,,10.0,y,https://printprobdb.psc.edu/api/character_groupings/e822db51-ff8d-40db-a201-8f4b70bb522a/download/,e822db51-ff8d-40db-a201-8f4b70bb522a
+"Field, John",field,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/cf530521-9c2b-468e-a870-01648460780e/download/,cf530521-9c2b-468e-a870-01648460780e
+"Flesher, Elizabeth",eflesher,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/289e1850-8066-4584-b80f-7f3f8f6b2417/download/,289e1850-8066-4584-b80f-7f3f8f6b2417
+"Flesher, James",jflesher,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/20e8ae6c-4b01-43ed-a398-b6e78db94649/download/,20e8ae6c-4b01-43ed-a398-b6e78db94649
+"Flesher, Miles",mfleshersr,pre-1665,2.0,y,https://printprobdb.psc.edu/api/character_groupings/8c46a663-a77a-400c-89e4-0d78314da4f3/download/,8c46a663-a77a-400c-89e4-0d78314da4f3
+"Flesher, Miles, Jr.",mflesher,post-1678,2.0,y,,06b4a299-6d34-4072-ac9b-57ece93193a9
+"Gain, John",jgaines,,10.0,y,https://printprobdb.psc.edu/api/character_groupings/ee5b4169-da28-4f0f-b2f3-6dcf8fc54ed9/download/,ee5b4169-da28-4f0f-b2f3-6dcf8fc54ed9
 "Godbid, Ann",anngodbid,,,y,https://printprobdb.psc.edu/api/character_groupings/5f684f13-20f2-43be-b7a1-21469b6abfab/download/,5f684f13-20f2-43be-b7a1-21469b6abfab
+"Godbid, Arther",arthergodbid,Prints with J. Playford. ,1.0,y,https://printprobdb.psc.edu/api/character_groupings/7149e3f2-c6fe-4fe7-b1d0-3a83d004b172/download/,7149e3f2-c6fe-4fe7-b1d0-3a83d004b172
+"Godbid, William",wgodbid,,5.0,y,https://printprobdb.psc.edu/api/character_groupings/789fc0e9-0485-472f-b61b-d6301d588781/download/,789fc0e9-0485-472f-b61b-d6301d588781
+"Golding, Edward",golding,1 on ESTC,1.0,y,https://printprobdb.psc.edu/api/character_groupings/5189e1b4-b734-4fb2-8fd8-b31b140f1fdf/download/,5189e1b4-b734-4fb2-8fd8-b31b140f1fdf
+"Grantham, John",grantham,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/9361d90a-b975-4ded-9ae1-7f92ba655752/download/,9361d90a-b975-4ded-9ae1-7f92ba655752
+"Griffin, Bennet",bgriffin,,5.0,y,https://printprobdb.psc.edu/api/character_groupings/c68be83a-ab96-4e66-839b-3b1e95a80c66/download/,c68be83a-ab96-4e66-839b-3b1e95a80c66
+"Griffin, Sarah",sgriffin,,4.0,y,https://printprobdb.psc.edu/api/character_groupings/f7454b65-366b-4301-a524-a43a3213dfea/download/,f7454b65-366b-4301-a524-a43a3213dfea
+"Grismond, John",jgrismond,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/c920ac1b-8867-4388-9d47-254a0369a76f/download/,c920ac1b-8867-4388-9d47-254a0369a76f
 "Grover, Ann",agrover,,,y,https://printprobdb.psc.edu/api/character_groupings/c6c12f75-a775-4df2-aab3-b334a32cbc8e/download/,c6c12f75-a775-4df2-aab3-b334a32cbc8e
+"Grover, James",jgrover,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/6a21a976-995a-4883-befd-2686a0d7812b/download/,6a21a976-995a-4883-befd-2686a0d7812b
+"Hales, Thomas",thales,(All outside 241 date range on ESTC),1.0,y,https://printprobdb.psc.edu/api/character_groupings/2653be7b-01db-4731-860f-1feafca2818d/download/,2653be7b-01db-4731-860f-1feafca2818d
 "Harefinch, John",jharefinch,,,y,https://printprobdb.psc.edu/api/character_groupings/da94cc60-9f95-45b5-95fb-ff73bf9a670c/download/,da94cc60-9f95-45b5-95fb-ff73bf9a670c
+"Harper, Thomas",tharper,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/c9c56487-479b-4d79-852b-64f574c41dff/download/,c9c56487-479b-4d79-852b-64f574c41dff
+"Harris, Benjamin",bharris,All ESTC texts outside of date range on 241 spreadsheet -- cross-check accurate date range,1.0,y,https://printprobdb.psc.edu/api/character_groupings/082cefc4-9b4d-40d3-afa3-ae71ff2db36d/download/,082cefc4-9b4d-40d3-afa3-ae71ff2db36d
+"Hayes, John",jhayes,hayes,10.0,y,https://printprobdb.psc.edu/api/character_groupings/f273df8b-950a-41aa-a401-1741e45e6477/download/,f273df8b-950a-41aa-a401-1741e45e6477
+"Hearne, Richard",hearne,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/7f549696-036e-4619-a3e7-f22a07126905/download/,7f549696-036e-4619-a3e7-f22a07126905
+"Heptinstall, John",jheptinstall,"""John Hepinstall"" in workbench",5.0,y,https://printprobdb.psc.edu/api/character_groupings/5a58dcd9-2a05-49a2-8393-8a137da70323/download/,5a58dcd9-2a05-49a2-8393-8a137da70323
+"Hills, Henry, Jr.",hhillsjr,,4.0,y,https://printprobdb.psc.edu/api/character_groupings/2f1d500d-0439-4261-b3aa-5f323e5bc33b/download/,2f1d500d-0439-4261-b3aa-5f323e5bc33b
+"Hills, Henry, Sr.",hhillssr,,6.0,y,https://printprobdb.psc.edu/api/character_groupings/09360a8c-bf6f-46a4-a3ff-4e72dfe8d847/download/,09360a8c-bf6f-46a4-a3ff-4e72dfe8d847
+"Hodgkin, Thomas",thodgkin,"""Thomas Hodgkin"" on workbench",7.0,y,https://printprobdb.psc.edu/api/character_groupings/de560de3-94a1-4355-8e56-dfd945c6ecd5/download/,de560de3-94a1-4355-8e56-dfd945c6ecd5
+"Hodgkinson, Richard",hodgkinson,rhodgkinson,3.0,y,https://printprobdb.psc.edu/api/character_groupings/7c6b013c-d32e-4bc4-9786-03fbc801e1bb/download/,7c6b013c-d32e-4bc4-9786-03fbc801e1bb
+"Hoeve, Justam ab",hoeve,(Not on 241 list + no additional texts on ESTC),1.0,y,https://printprobdb.psc.edu/api/character_groupings/2f191bda-b58a-4f22-b973-dfa89a2bca45/download/,2f191bda-b58a-4f22-b973-dfa89a2bca45
+"Holt, Elizabeth",eholt,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/746eae92-7ea4-473a-8f00-ed39c58b58fd/download/,746eae92-7ea4-473a-8f00-ed39c58b58fd
+"Holt, Ralph",rholt,,6.0,y,https://printprobdb.psc.edu/api/character_groupings/b07e00cf-809f-42c0-a172-19fefefc4fb4/download/,b07e00cf-809f-42c0-a172-19fefefc4fb4
 "Horton, Edward",ehorton,,,y,https://printprobdb.psc.edu/api/character_groupings/db02164a-881d-4cda-8843-6819b2f17e1c/download/,db02164a-881d-4cda-8843-6819b2f17e1c
 "Horton, William",whorton,,,y,https://printprobdb.psc.edu/api/character_groupings/590c99cc-667e-4e6d-9644-f6fdeddaab5d/download/,590c99cc-667e-4e6d-9644-f6fdeddaab5d
 "How, John",johnhow,,,y,https://printprobdb.psc.edu/api/character_groupings/f06804a2-b816-4c2d-8d6d-36cda1a7d195/download/,f06804a2-b816-4c2d-8d6d-36cda1a7d195
+"Howell, Nathaniel",nhowell,(Only one text on ESTC),1.0,y,https://printprobdb.psc.edu/api/character_groupings/2dd3653e-a0c5-4570-8b55-31cb02fdb2aa/download/,2dd3653e-a0c5-4570-8b55-31cb02fdb2aa
+"Humphreys, John",humphreys,(Second book awaiting upload),1.0,y,https://printprobdb.psc.edu/api/character_groupings/4c4d0b53-e39c-4489-84da-7aa8889a549f/download/,4c4d0b53-e39c-4489-84da-7aa8889a549f
 "Hunt, Ame",ahunt,,,y,https://printprobdb.psc.edu/api/character_groupings/f2a846d7-d2f9-4c5f-b666-6f563aa65a81/download/,f2a846d7-d2f9-4c5f-b666-6f563aa65a81
+"Hunt, William",whunt,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/cc66a611-30d4-4e55-a0b8-f6b16fa6b517/download/,cc66a611-30d4-4e55-a0b8-f6b16fa6b517
+"Ibbitson, Robert",ribbitson,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/6ab32210-d433-4467-8985-1d725dfc0856/download/,6ab32210-d433-4467-8985-1d725dfc0856
+"Ilive, Thomas",ilive,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/efab7a13-8ffd-4b9e-be9c-550994164dda/download/,efab7a13-8ffd-4b9e-be9c-550994164dda
 "Inman, Matthew",minman,,,y,https://printprobdb.psc.edu/api/character_groupings/64a99383-8806-4ef8-a88f-6ad7a5a8a33b/download/,64a99383-8806-4ef8-a88f-6ad7a5a8a33b
+"James, Thomas",tjames,,6.0,y,https://printprobdb.psc.edu/api/character_groupings/5a053451-3dd1-44a9-bb09-2fb936597ffd/download/,5a053451-3dd1-44a9-bb09-2fb936597ffd
+"Johnson, Thomas",tjohnson,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/9d07da75-f347-4555-8348-0129cf6723c6/download/,9d07da75-f347-4555-8348-0129cf6723c6
+"Jones, Edward",ejones,,10.0,y,https://printprobdb.psc.edu/api/character_groupings/74d9cdbd-28f4-46ba-8a00-c96fa6566893/download/,74d9cdbd-28f4-46ba-8a00-c96fa6566893
+"Larkin, George",glarkin,glarkini,10.0,y,https://printprobdb.psc.edu/api/character_groupings/dffabcec-dc8f-4c84-806a-f78dc6dcab77/download/,dffabcec-dc8f-4c84-806a-f78dc6dcab77
+"Leach, Francis",fleachjr,,5.0,y,https://printprobdb.psc.edu/api/character_groupings/acccd4eb-cbaf-4054-9d4a-9d7b1b702436/download/,acccd4eb-cbaf-4054-9d4a-9d7b1b702436
+"Leach, Thomas",tleach,leach,5.0,y,https://printprobdb.psc.edu/api/character_groupings/d1e89ee9-01e6-48aa-bc5d-ac7e9a49f18a/download/,d1e89ee9-01e6-48aa-bc5d-ac7e9a49f18a
+"Leake, John",jleake,,9.0,y,https://printprobdb.psc.edu/api/character_groupings/cd104c6d-dfa6-4e37-a7c4-e8d1e403d37c/download/,cd104c6d-dfa6-4e37-a7c4-e8d1e403d37c
+"Leybourne, William",wleybourne,one set for W and R Leybourne on workbench,1.0,y,https://printprobdb.psc.edu/api/character_groupings/acf82061-14cb-4a4c-b55b-ff2082296a9c/download/,acf82061-14cb-4a4c-b55b-ff2082296a9c
+"Lilliecrap, Peter",plillicrap,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/98a2bbf4-91f4-4de1-bc32-6a46080f8442/download/,98a2bbf4-91f4-4de1-bc32-6a46080f8442
 "Lloyd, Henry",hlloyd,,,y,https://printprobdb.psc.edu/api/character_groupings/30b37f16-bc33-4dc4-86bf-7cc1350be744/download/,30b37f16-bc33-4dc4-86bf-7cc1350be744
 "Lock, John",jlock,,,y,https://printprobdb.psc.edu/api/character_groupings/ded2271f-4df0-47c1-8c75-c5c009d808ab/download/,ded2271f-4df0-47c1-8c75-c5c009d808ab
 "Lock, Thomas",tlock,,,y,https://printprobdb.psc.edu/api/character_groupings/22364781-8679-4d0a-bce1-c3fb3c6b23a0/download/,22364781-8679-4d0a-bce1-c3fb3c6b23a0
+"Mabb, Thomas",tmabb,,7.0,y,https://printprobdb.psc.edu/api/character_groupings/0d22a678-7b81-498a-9c5f-0d22f1cd0f06/download/,0d22a678-7b81-498a-9c5f-0d22f1cd0f06
+"Macock, John",macock,,8.0,y,https://printprobdb.psc.edu/api/character_groupings/c075de77-e585-4bc1-8c52-0a7ee3290ce3/download/,c075de77-e585-4bc1-8c52-0a7ee3290ce3
+"Mallet, David",dmallet,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/f687f5de-eff4-4ab5-8a74-890fdbef99c6/download/,f687f5de-eff4-4ab5-8a74-890fdbef99c6
 "Mallet, Elizabeth",emallet,,,y,https://printprobdb.psc.edu/api/character_groupings/2196e840-4a3c-4d3c-96ec-7e192ad6ac71/download/,2196e840-4a3c-4d3c-96ec-7e192ad6ac71
+"Martyn, John",jmartyn,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/640d52b4-f36e-45fd-8c57-14ad4074bf96/download/,640d52b4-f36e-45fd-8c57-14ad4074bf96
 "Mason, Edward",edmason,,,y,https://printprobdb.psc.edu/api/character_groupings/7708f7e9-5eb1-463d-9fc7-24d3bf36856b/download/,7708f7e9-5eb1-463d-9fc7-24d3bf36856b
+"Mathewes, Augustine",augmathewes,,4.0,y,https://printprobdb.psc.edu/api/character_groupings/4cfa1214-6975-4cf0-9eca-de882bf30375/download/,4cfa1214-6975-4cf0-9eca-de882bf30375
+"Matthews, John",jmatthews,,6.0,y,https://printprobdb.psc.edu/api/character_groupings/c29845ec-9ca9-41cb-8bbd-2f16911195e7/download/,c29845ec-9ca9-41cb-8bbd-2f16911195e7
+"Maxey, Anne",maxey,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/3a72c1e4-a104-4563-b0b6-43d20966086c/download/,3a72c1e4-a104-4563-b0b6-43d20966086c
+"Maxwell, Anne",amaxwell,,8.0,y,https://printprobdb.psc.edu/api/character_groupings/0bbfbb03-56e9-4e09-923d-513deb2889d4/download/,0bbfbb03-56e9-4e09-923d-513deb2889d4
+"Maxwell, David",dmaxwell,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/b97cf614-3c17-4093-b732-80d4ec73c0fd/download/,b97cf614-3c17-4093-b732-80d4ec73c0fd
 "Mayos, John",jmayo,,,y,https://printprobdb.psc.edu/api/character_groupings/f6214ee1-4869-4b1d-9d7f-c51b9d8e120f/download/,f6214ee1-4869-4b1d-9d7f-c51b9d8e120f
 "Milbourn, Alexander",amilbourn,,,y,https://printprobdb.psc.edu/api/character_groupings/2d98714b-4b98-486b-8e86-2b4ee3133977/download/,2d98714b-4b98-486b-8e86-2b4ee3133977
+"Milbourn, Thomas",tmilbourn,arrested 1686,5.0,y,https://printprobdb.psc.edu/api/character_groupings/ac3914dd-061c-4b44-a280-96bd3704197c/download/,ac3914dd-061c-4b44-a280-96bd3704197c
+"Miles, Elizabeth",emiles,(No additional texts located on ESTC),1.0,y,https://printprobdb.psc.edu/api/character_groupings/2fcdf66b-e0ac-4988-a17d-62f0f80226bf/download/,2fcdf66b-e0ac-4988-a17d-62f0f80226bf
+"Miller, Abraham",abemiller,,4.0,y,https://printprobdb.psc.edu/api/character_groupings/2f3c2e49-09ca-432b-a865-3f75ea8d26c1/download/,2f3c2e49-09ca-432b-a865-3f75ea8d26c1
 "Miller, George",gmiller,,,y,https://printprobdb.psc.edu/api/character_groupings/a4506771-4669-4fab-9dec-3a17015ed87b/download/,a4506771-4669-4fab-9dec-3a17015ed87b
+"Millet, John",jmillet,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/6f9d13a0-fedb-44af-9a6e-7c6a22ff88eb/download/,6f9d13a0-fedb-44af-9a6e-7c6a22ff88eb
 "Morgan, John",jmorgan,,,y,https://printprobdb.psc.edu/api/character_groupings/d8fc5ee5-9259-4e59-9900-99df98542c2d/download/,d8fc5ee5-9259-4e59-9900-99df98542c2d
+"Motte, Benjamin",benmottei,1691 book is Motte I; 1719 book is Motte II ,2.0,y,https://printprobdb.psc.edu/api/character_groupings/4983afda-e4e8-40e0-b645-c78198990116/download/,4983afda-e4e8-40e0-b645-c78198990116
+"Moxon, James",jmoxon,jomoxon,1.0,y,https://printprobdb.psc.edu/api/character_groupings/2ad3d974-e511-4f41-bf61-d86b657e668e/download/,2ad3d974-e511-4f41-bf61-d86b657e668e
+"Moxon, Joseph",josephmoxon,,4.0,y,https://printprobdb.psc.edu/api/character_groupings/75581a6c-c7ee-42d8-bfdf-31febe5e0b7d/download/,75581a6c-c7ee-42d8-bfdf-31febe5e0b7d
+"Newcomb, Thomas",newcomb,,5.0,y,https://printprobdb.psc.edu/api/character_groupings/e1cebc86-6ccd-4109-9b42-3f829b3bd0e8/download/,e1cebc86-6ccd-4109-9b42-3f829b3bd0e8
+"Newcomb, Thomas, Jr.",newcombjr,,4.0,y,https://printprobdb.psc.edu/api/character_groupings/ab4602de-98d8-43eb-898f-505fe5900232/download/,ab4602de-98d8-43eb-898f-505fe5900232
+"Norton, Roger",norton,,8.0,y,https://printprobdb.psc.edu/api/character_groupings/aa9a837e-1b0f-4670-a78d-53a6a22f11c5/download/,aa9a837e-1b0f-4670-a78d-53a6a22f11c5
 "Nutt, John",jnutt,,,y,https://printprobdb.psc.edu/api/character_groupings/78b73e94-6814-4d93-aabc-3dbeb033a6ae/download/,78b73e94-6814-4d93-aabc-3dbeb033a6ae
 "Okes, Edward",eokes,,,y,https://printprobdb.psc.edu/api/character_groupings/3dfa3b6e-fc22-4d9b-b16c-636882ce4b78/download/,3dfa3b6e-fc22-4d9b-b16c-636882ce4b78
+"Okes, John",jokes,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/53ddd0e3-b5b2-4094-aa10-83a94b892d36/download/,53ddd0e3-b5b2-4094-aa10-83a94b892d36
+"Onley, William",wonley,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/5fca95ee-7d01-4d2c-a0a6-feb1872de582/download/,5fca95ee-7d01-4d2c-a0a6-feb1872de582
+"Orme, James",jorme,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/03f1d7e7-d032-404a-9900-5f2a6724e6be/download/,03f1d7e7-d032-404a-9900-5f2a6724e6be
 "Oulton, Richard",roulton,,,y,https://printprobdb.psc.edu/api/character_groupings/a10f5530-7b6b-4805-9587-9db2e62880f0/download/,a10f5530-7b6b-4805-9587-9db2e62880f0
 "Parry, Leonard",lparry,,,y,https://printprobdb.psc.edu/api/character_groupings/c1ae51d7-280b-4130-90d5-45d849aa29c9/download/,c1ae51d7-280b-4130-90d5-45d849aa29c9
+"Playford, John",jplayfordii,,5.0,y,https://printprobdb.psc.edu/api/character_groupings/ce59bc43-6cca-44e0-9b5a-61a311c6be0d/download/,ce59bc43-6cca-44e0-9b5a-61a311c6be0d
+"Ratcliffe, Thomas",tratcliffe,ratcliffe,10.0,y,https://printprobdb.psc.edu/api/character_groupings/7fbfafa4-7ec6-4162-b136-7dbcc3862908/download/,7fbfafa4-7ec6-4162-b136-7dbcc3862908
+"Rawlins, James",jrawlins,"""J. Rawlins"" in Workbench",4.0,y,https://printprobdb.psc.edu/api/character_groupings/897a62d7-a689-4086-8707-40876dc96d10/download/,897a62d7-a689-4086-8707-40876dc96d10
+"Rawlins, William",rawlins,"""W Rawlins"" in Workbench",6.0,y,https://printprobdb.psc.edu/api/character_groupings/020782f3-920d-4fed-8046-09de643c7378/download/,020782f3-920d-4fed-8046-09de643c7378
+"Raworth, John",jraworth,,4.0,y,https://printprobdb.psc.edu/api/character_groupings/1f3649bc-c1fb-4f7a-a1e3-f2dc3d15bda4/download/,1f3649bc-c1fb-4f7a-a1e3-f2dc3d15bda4
+"Raworth, Ruth",rraworth,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/d3f56797-5eef-4fd2-a533-11f22a651dc0/download/,d3f56797-5eef-4fd2-a533-11f22a651dc0
+"Ray, Joseph",jray,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/af82654c-654e-4505-9e06-5e1dcbe4abd1/download/,af82654c-654e-4505-9e06-5e1dcbe4abd1
+"Redmayne, Elizabeth",eredmayne,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/99464645-73e3-4367-a05a-475775fe72b5/download/,99464645-73e3-4367-a05a-475775fe72b5
+"Redmayne, John",jredmayneii,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/88f95acc-18df-4e91-ae61-45ea0e448686/download/,88f95acc-18df-4e91-ae61-45ea0e448686
+"Redmayne, William",wredmayne,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/74b809ee-9447-435e-983d-9b804f0c7cc4/download/,74b809ee-9447-435e-983d-9b804f0c7cc4
+"Richardson, John",jrichardson,,10.0,y,https://printprobdb.psc.edu/api/character_groupings/ad544734-db62-4d22-b119-d5271fb49937/download/,ad544734-db62-4d22-b119-d5271fb49937
+"Roberts, Robert",rroberts,,9.0,y,https://printprobdb.psc.edu/api/character_groupings/26dde26f-bddd-4b87-a52f-8da1e15b350b/download/,26dde26f-bddd-4b87-a52f-8da1e15b350b
+"Roycroft, Samuel",sroycroft,,8.0,y,https://printprobdb.psc.edu/api/character_groupings/e46d9fa4-0a26-45f9-8165-7de1fb65cf75/download/,e46d9fa4-0a26-45f9-8165-7de1fb65cf75
+"Roycroft, Thomas",troycroft,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/6c1fccec-c826-466e-b027-952cb610552f/download/,6c1fccec-c826-466e-b027-952cb610552f
+"Simmons, Mary",marysimmons,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/47ab32f3-2fe9-4b48-921b-25046a3f82a4/download/,47ab32f3-2fe9-4b48-921b-25046a3f82a4
+"Simmons, Matthew",simmons,,7.0,y,https://printprobdb.psc.edu/api/character_groupings/e48f9e24-c5e7-477f-bf73-72a539f6545e/download/,e48f9e24-c5e7-477f-bf73-72a539f6545e
+"Simmons, Samuel",ssimmons,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/2daa1555-5d73-4abc-9834-e96e999c5124/download/,2daa1555-5d73-4abc-9834-e96e999c5124
 "Smith, Samuel",ssmith,,,y,https://printprobdb.psc.edu/api/character_groupings/f3a2f235-3336-4abe-94a5-935340c22256/download/,f3a2f235-3336-4abe-94a5-935340c22256
+"Snowden, Thomas",tsnowden,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/c4b053f3-1a9a-4bcb-bb1a-10a140c2f6c0/download/,c4b053f3-1a9a-4bcb-bb1a-10a140c2f6c0
+"Sowle, Andrew",asowle,,9.0,y,https://printprobdb.psc.edu/api/character_groupings/99a428fc-6f99-41d0-9b49-2b96f796832f/download/,99a428fc-6f99-41d0-9b49-2b96f796832f
+"Sowle, Jane",jsowle,(Printed for/sold by on ESTC),1.0,y,https://printprobdb.psc.edu/api/character_groupings/cea4e9cb-8d71-4203-b24a-5f992b294db0/download/,cea4e9cb-8d71-4203-b24a-5f992b294db0
+"Streater, John",jstreater,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/e81b526c-36c8-40d4-90a3-5b5c476db9b2/download/,e81b526c-36c8-40d4-90a3-5b5c476db9b2
 "Swinock, Caleb",cswinock,,,y,https://printprobdb.psc.edu/api/character_groupings/7be0a52d-9eb9-462d-ab75-8286be61fb30/download/,7be0a52d-9eb9-462d-ab75-8286be61fb30
+"Taylor, John",jtaylor,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/ed3fc16e-7956-4ade-9a6e-3e79ff9f78c6/download/,ed3fc16e-7956-4ade-9a6e-3e79ff9f78c6
+"Thompson, Mary",mthompson,,6.0,y,https://printprobdb.psc.edu/api/character_groupings/3290eb29-c3f1-4df5-9a9e-506c5e9ff525/download/,3290eb29-c3f1-4df5-9a9e-506c5e9ff525
 "Thompson, Nathaniel",nthompson,,,y,https://printprobdb.psc.edu/api/character_groupings/24863310-8fa7-4a00-9d1b-05f2121ea47e/download/,24863310-8fa7-4a00-9d1b-05f2121ea47e
+"Tooke, Benjamin",btooke,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/8da4f54d-0ef6-46da-90cc-0e715d4c23f7/download/,8da4f54d-0ef6-46da-90cc-0e715d4c23f7
+"Tookey, Robert",rtookey,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/62283a74-f84f-4964-b1d4-f30fb14c103a/download/,62283a74-f84f-4964-b1d4-f30fb14c103a
+"Twyn, John",twyn,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/3deec9b1-da90-40ad-a029-81e6a93395cb/download/,3deec9b1-da90-40ad-a029-81e6a93395cb
+"Tyler, Evan",etyler,,9.0,y,https://printprobdb.psc.edu/api/character_groupings/1d49f402-f974-4fa3-b082-f43b3f993fa2/download/,1d49f402-f974-4fa3-b082-f43b3f993fa2
 "Vaughan, Roger",rvaughn,,,y,https://printprobdb.psc.edu/api/character_groupings/2efe3bae-baa3-4615-864c-edc9bb16918c/download/,2efe3bae-baa3-4615-864c-edc9bb16918c
+"Wallis, John",jwallis,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/7dac1119-26ff-4bfa-9fb9-5b4ca93ea91a/download/,7dac1119-26ff-4bfa-9fb9-5b4ca93ea91a
 "Walter, Robert",rwalter,,,y,https://printprobdb.psc.edu/api/character_groupings/4cf449e6-e51b-4872-98cb-fefd6add9069/download/,4cf449e6-e51b-4872-98cb-fefd6add9069
+"Warren, Alice",awarren,warren,2.0,y,https://printprobdb.psc.edu/api/character_groupings/c06bd7ad-c90a-4c71-9d88-e0c9dc4920e5/download/,c06bd7ad-c90a-4c71-9d88-e0c9dc4920e5
+"Warren, Thomas",twarreniii,twarreniii,8.0,y,https://printprobdb.psc.edu/api/character_groupings/abd621b0-7287-4220-b3bc-230ba2320af5/download/,abd621b0-7287-4220-b3bc-230ba2320af5
+"White, Barnard",bwhite,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/aa5d916e-24ef-49af-bb6b-cb8142da659a/download/,aa5d916e-24ef-49af-bb6b-cb8142da659a
+"White, Margaret",mwhite,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/22ddbbb4-6897-4cea-b660-cd756c382ab5/download/,22ddbbb4-6897-4cea-b660-cd756c382ab5
+"White, Robert",white,rwhite,6.0,y,https://printprobdb.psc.edu/api/character_groupings/a4ca6211-be6c-4a3a-9d9f-4ac8bdbdc7b8/download/,a4ca6211-be6c-4a3a-9d9f-4ac8bdbdc7b8
 "Wilde, John",jwilde,,,y,https://printprobdb.psc.edu/api/character_groupings/eeb37770-6a3f-4488-b4a5-5cc21a0338c6/download/,eeb37770-6a3f-4488-b4a5-5cc21a0338c6
+"Wilde, Richard",rwilde,,1.0,y,https://printprobdb.psc.edu/api/character_groupings/d56ccafa-e4a1-4629-897b-c59c8a515a12/download/,d56ccafa-e4a1-4629-897b-c59c8a515a12
+"Wilde, William",wwilde,,3.0,y,https://printprobdb.psc.edu/api/character_groupings/e87e24eb-ac5f-4f63-91be-d565118a41ba/download/,e87e24eb-ac5f-4f63-91be-d565118a41ba
 "Wilson, Robert",rwilson,,,y,https://printprobdb.psc.edu/api/character_groupings/e1756124-8e5c-4913-8a4c-7f331653e9b5/download/,e1756124-8e5c-4913-8a4c-7f331653e9b5
+"Wilson, William",wilson,,6.0,y,https://printprobdb.psc.edu/api/character_groupings/659d607d-7d94-4bbc-a29b-5b65ce69375a/download/,659d607d-7d94-4bbc-a29b-5b65ce69375a
+"Winter, John",jwinter,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/c3c5b6fe-9d71-4644-a104-e1b952f0d954/download/,c3c5b6fe-9d71-4644-a104-e1b952f0d954
+"Wood, Ralph",rawood,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/dfd1963c-cb89-4cf7-88c9-fd271bf96824/download/,dfd1963c-cb89-4cf7-88c9-fd271bf96824
+"Wood, Robert",rowood,,2.0,y,https://printprobdb.psc.edu/api/character_groupings/5694a679-cea0-4809-8d50-a317978cce18/download/,5694a679-cea0-4809-8d50-a317978cce18
