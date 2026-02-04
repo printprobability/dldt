@@ -1,4 +1,4 @@
-import { readFileSync } from "fs"
+import { readFileSync, existsSync } from "fs"
 import { resolve, parse } from "path"
 import type { Model } from "sequelize"
 import _ from "lodash"
@@ -44,6 +44,20 @@ const readData = (path: string): any[] => JSON.parse(readFileSync(path, "utf8"))
  */
 const readCSV = (path: string): any[] =>
   parseCsv(readFileSync(path, "utf8"), { skipEmptyLines: true, columns: true })
+
+/**
+ * Read newline-delimited IDs from a text file (ignores blanks and # comments)
+ */
+const readIdList = (path: string): Set<string> => {
+  if (!existsSync(path)) return new Set()
+  const raw = readFileSync(path, "utf8")
+  return new Set(
+    raw
+      .split(/\r?\n/)
+      .map((s) => s.trim())
+      .filter((s) => s && !s.startsWith("#"))
+  )
+}
 
 /**
  * Bulk insert
@@ -153,9 +167,7 @@ const processCharacterGroupLabel = (character: any, printerMap: Record<string, a
   }
 
   if (!printer) {
-    console.warn(
-      `[migrate] Missing printer for group id=${gid} (char_id=${character["char_id"] ?? "UNKNOWN"})`
-    )
+    console.warn(`[migrate] Missing printer for group id=${gid} (char_id=${character["char_id"] ?? "UNKNOWN"})`)
     character["group_label"] = "Unknown printer"
     return
   }
@@ -168,7 +180,11 @@ const processCharacterGroupLabel = (character: any, printerMap: Record<string, a
  *
  * @param character
  */
-const processUniqueID = (character: any, bookMap: Record<string, any>, citeOccurrence: Record<string, number>): void => {
+const processUniqueID = (
+  character: any,
+  bookMap: Record<string, any>,
+  citeOccurrence: Record<string, number>
+): void => {
   // Get corresponding book
   const book = bookMap[character["book_id"]]["book_data"]
 
@@ -203,7 +219,11 @@ const processSequence = (character: any): void => {
  * Process printer years
  * @param character
  */
-const processPrinterYears = (character: any, bookMap: Record<string, any>, printerMap: Record<string, any>): void => {
+const processPrinterYears = (
+  character: any,
+  bookMap: Record<string, any>,
+  printerMap: Record<string, any>
+): void => {
   // Get book
   const book = bookMap[character["book_id"]]["book_data"]
   // Get printer
@@ -220,6 +240,10 @@ const processPrinterYears = (character: any, bookMap: Record<string, any>, print
 // *********************************************
 // Main
 // *********************************************
+
+// Book IDs to permanently exclude from the site (one UUID per line)
+const excludedBookIds = readIdList(resolve("dldt_data/flagged_for_deletion.txt"))
+console.warn(`Excluding ${excludedBookIds.size} book_id(s) from migration`)
 
 // Import cdt_printers.csv
 const printers = readCSV(resolve("dldt_data/cdt_printers.csv"))
@@ -241,21 +265,28 @@ printers.forEach((printer: any) => {
   printerMap[gid] = printer
 })
 
-// Import books.json
-const books = readData(resolve("dldt_data/books.json"))
+// Import books.json (filter excluded books BEFORE inserting + mapping)
+const booksAll = readData(resolve("dldt_data/books.json"))
+const books = booksAll.filter((b: any) => !excludedBookIds.has(b.book_id))
+console.warn(`Books: ${booksAll.length} -> ${books.length} after exclusions`)
+
 // Import books.json to database
 await bulkInsert(Book, books, "id", "book_data")
 
 // Mapping book entry for fast access
 const bookMap: Record<string, any> = {}
 // Iterate through each book and map id to entry
-books.map((book: any) => (bookMap[book.book_id] = book))
+books.forEach((book: any) => {
+  bookMap[book.book_id] = book
+})
 
 // Cite occurrence
 const citeOccurrence: Record<string, number> = {}
 
-// Import extracted_character_data.json
-const characters = readData(resolve("dldt_data/extracted_character_data.json"))
+// Import extracted_character_data.json (filter excluded books BEFORE processing)
+const charactersAll = readData(resolve("dldt_data/extracted_character_data.json"))
+const characters = charactersAll.filter((c: any) => !excludedBookIds.has(c.book_id))
+console.warn(`Characters: ${charactersAll.length} -> ${characters.length} after exclusions`)
 
 // Normalize character key mismatch too (just in case)
 characters.forEach((c: any) => {
@@ -264,6 +295,9 @@ characters.forEach((c: any) => {
 
 // Loop and process IIIF link
 for (const character of characters) {
+  // If a character references a book we removed, skip it defensively
+  if (!bookMap[character["book_id"]]) continue
+
   // Process IIIF image link
   processWebUrl(character)
   // Process character class
