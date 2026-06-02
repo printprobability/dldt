@@ -252,14 +252,14 @@ const groups = {
     }
   ],
   "Deployment & Publishing": [
-    {
-      "src": person,
-      "name": "Jonathan Kiritharan",
+     {
+      "src": 'img/perryportrait.jpg',
+      "name": "Talia Perry",
       "degree": "Carnegie Mellon University Libraries",
     },
     {
-      "src": person,
-      "name": "Talia Perry",
+      "src": 'img/kiritharanportrait.png',
+      "name": "Jonathan Kiritharan",
       "degree": "Carnegie Mellon University Libraries",
     },
     {
