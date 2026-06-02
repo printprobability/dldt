@@ -211,10 +211,10 @@ const groups = {
   ],
   "Editorial & Technical Team": [
     {
-      "src": person,
-      "name": "Taylor Berg-Kirkpatrick",
-      "degree": "UC San Diego, Computer Science & Engineering",
-    },
+  "src": 'img/tbk_portrait.jpg',
+  "name": "Taylor Berg-Kirkpatrick",
+  "degree": "UC San Diego, Computer Science & Engineering",
+      },
     {
       "src": 'img/deluca.jpg',
       "name": "Laura DeLuca",
